@@ -4,10 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'tailwindcss/base';
-import 'tailwindcss/components';
-import 'tailwindcss/utilities';
-import './index.css';
 
 
 
