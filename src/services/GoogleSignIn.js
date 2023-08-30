@@ -1,9 +1,7 @@
-// src/services/GoogleSignIn.js
 
 import React from 'react';
 import { getAuth, signInWithPopup } from "firebase/auth";
-import { provider } from './firebaseConfig'; // Adjusted the path to the correct location
-
+import { provider } from './firebaseConfig'; 
 function GoogleSignIn() {
     const auth = getAuth();
 
