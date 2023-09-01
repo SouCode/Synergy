@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import GoogleSignIn from './services/GoogleSignIn'; 
-import PhoneSignIn from './services/PhoneSignIn'; 
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <GoogleSignIn />
-        <PhoneSignIn />
         <a
           className="App-link"
           href="https://reactjs.org"
