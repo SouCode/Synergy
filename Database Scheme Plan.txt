@@ -1,0 +1,44 @@
+Assets Collection:
+
+Document ID: Auto-generated or based on the barcode/serial number.
+Fields:
+assetType: (e.g., 'Laptop', 'Monitor', 'Keyboard', etc.)
+barcode: Barcode associated with the asset.
+serialNumber: Unique serial number (especially for laptops, monitors).
+brand: Brand of the asset (e.g., 'Dell', 'Apple', 'HP').
+model: Specific model of the asset.
+status: (e.g., 'In Use', 'Available', 'Under Maintenance', 'Disposed').
+location: Current location or department where the asset is placed.
+assignedTo: User ID or name of the person to whom the asset is currently assigned.
+purchaseDate: Date when the asset was purchased.
+warrantyExpiry: Date when the warranty expires.
+notes: Any additional notes or comments about the asset.
+Inventory Collection:
+
+Document ID: Auto-generated or based on the product type.
+Fields:
+itemType: Type of the item (e.g., 'Keyboard', 'Mouse', 'Cable').
+brand: Brand of the item.
+model: Specific model or variant.
+stockCount: Current stock level.
+reorderPoint: Stock level at which a reorder should be triggered.
+lastReorderDate: Date when the last reorder was made.
+supplier: Supplier details or reference.
+notes: Any additional notes or comments about the inventory item.
+Users Collection (for future reference when assigning assets):
+
+Document ID: User ID from Firebase Authentication.
+Fields:
+name: Full name of the user.
+email: Email address.
+role: Role of the user (e.g., 'Admin', 'Employee', 'IT Manager').
+department: Department to which the user belongs.
+assignedAssets: Array or reference to assets currently assigned to the user.
+Alerts Collection (for future reference):
+
+Document ID: Auto-generated.
+Fields:
+alertType: Type of alert (e.g., 'Low Stock', 'Maintenance Due').
+relatedAsset: Reference to the asset or inventory item.
+message: Detailed alert message.
+date: Date when the alert was generated.
